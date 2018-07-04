@@ -1,0 +1,78 @@
+/*------------------------------------------------------------------
+
+Table of contents:
+
+    1: General Styling
+    2: Navbar-Top
+    3: Header
+    4: Trending
+    5: Main-Navbar
+    6: Slider
+
+-------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+
+/*  1: General Styling                                                               */
+
+/*-----------------------------------------------------------------------------------*/
+body{
+    font-family: 'Rajdhani', sans-serif;
+    box-sizing: border-box;
+    font-size: 17px;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+    padding: 0;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.sender{
+    text-align: center;
+}
+
+.form-group{
+    text-align: center
+}
+
+.form-group .form-input{
+    width: 80%;
+    padding: 3px 10px;
+}
+
+.form-group textarea{
+    width: 80%;
+    height: 150px;
+    min-height: 150px;
+    resize: vertical;
+    padding: 3px 10px;
+}
+
+.action{
+    /*overflow-y: scroll*/
+}
+
+.btn-send{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    font-size: 18px
+}
+
+.alert-dismissable .close, .alert-dismissible .close {
+    top: -3px;
+}
+.close {
+    font-size: 30px;
+}
+
+p{
+    font-weight: bold;
+    color: #ff4848;
+}
+
+p span{
+
+}
